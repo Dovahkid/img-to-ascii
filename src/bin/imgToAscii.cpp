@@ -31,6 +31,10 @@ void AsciiTools::convertToAscii(AsciiTools::ImageData imageData, std::string out
         // printf(" | %d %d %d", imageData.image[i], imageData.image[i+1], imageData.image[i+2]);
         aggregateValue = (imageData.image[i] + imageData.image[i+1] + imageData.image[i+2]) / 3;
 
+        /*
+            I would prefer if this wasnt hard coded but idc to find a better solution rn
+        */
+
 		if(aggregateValue > 224)
             outFile << fillers[0] << fillers[0];
             
