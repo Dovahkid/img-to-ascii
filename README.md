@@ -1,4 +1,4 @@
-##USEAGE
+# USEAGE
 
 ./convertToAscii [imageFileName] [outputFileName]
 
