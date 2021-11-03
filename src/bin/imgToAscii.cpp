@@ -19,7 +19,7 @@ AsciiTools::ImageData AsciiTools::loadImage(const char* imageName) {
 void AsciiTools::convertToAscii(AsciiTools::ImageData imageData, std::string fillers) {
 
     // 3 because it has 3 channels of color, RGB
-    int rgbCount = (imageData.height * imageData.width * 3) - 3;
+    int rgbCount = (imageData.height * imageData.width * 3);
     int aggregateValue = 0;
     int widthCounter = 0;
 	char colorValue = 0;
