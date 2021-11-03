@@ -9,5 +9,5 @@ namespace AsciiTools {
     };
 
     ImageData loadImage(const char* imageName);
-    void convertToAscii(ImageData imageData, std::string fillers = " _-*oOQA");
+    void convertToAscii(ImageData imageData, std::string outputFile, std::string fillers = " _-*oOQA");
 }
