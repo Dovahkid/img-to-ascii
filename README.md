@@ -1,4 +1,4 @@
-# USEAGE
+# USAGE
 
 convertToAscii [imageFileName] [outputFileName] [optional characters]  \
   \
