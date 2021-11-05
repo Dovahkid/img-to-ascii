@@ -16,6 +16,6 @@ int main(int argc, char* argv[]) {
 
     AsciiTools::ImageData imageData = AsciiTools::loadImage(imageFile.c_str());
     AsciiTools::convertToAscii(imageData, outputFile, " _-*oOQA");
-
+    
     return 0;
 }
